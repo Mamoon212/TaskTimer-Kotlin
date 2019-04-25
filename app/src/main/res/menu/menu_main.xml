@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.mo2a.example.tasktimer.MainActivity">
+    <item android:title="@string/menuTitle_addTask" android:id="@+id/menuMain_addTask"
+          android:icon="@android:drawable/ic_menu_add" app:showAsAction="ifRoom" android:orderInCategory="10"/>
+    <item android:title="@string/menuTitle_showDurations" android:id="@+id/menuMain_showDurations"
+          android:icon="@android:drawable/ic_menu_view" app:showAsAction="ifRoom" android:orderInCategory="20"/>
+    <item android:id="@+id/menuMain_settings"
+          android:title="@string/menuTitle_settings"
+          app:showAsAction="never" android:orderInCategory="30"/>
+    <item android:title="@string/menuTitle_showAbout" android:id="@+id/menuMain_showAbout"
+          android:icon="@android:drawable/ic_menu_info_details" app:showAsAction="ifRoom" android:orderInCategory="40"/>
+    <item android:title="@string/menuTitle_generate" android:id="@+id/menuMain_generate" app:showAsAction="never"
+          android:orderInCategory="50" android:visible="false"/>
+</menu>
